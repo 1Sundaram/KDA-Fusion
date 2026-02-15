@@ -1,0 +1,228 @@
+<html>
+
+	<head>
+	
+		<title> contact us</title>
+		<style>
+			
+			*{
+				MARGIN: 0;
+				PADDING: 0;
+				boX-SizinG: BORDER-BOX;
+			}
+			
+			body {
+				background-color: rgb(90,90,90);
+				background-image: url(new-web-images/mangaonepiece.jpg);
+			}
+			
+			SECTION{
+				WIDTH: 100%;
+				HEIGHT: 100%;
+				PADdING: 3reM;
+				DISPLAY: FLEX;
+				JUSTIFY-CONTENT: CENTER;
+				ALIGN-ITEMS: CENTER;
+				opacity: 0.85;
+			}
+			
+			.ROW_ALIGN{
+				WiDth: 100%;
+				heiGHT: 70VH;
+				DISPLAY: FLEX;
+				FLEX-DIRECTION: ROW;
+				border: 1px solid black;
+  				background: rgba(235, 235, 235, 0.02);
+  				box-shadow: -1px 4px 28px 0px rgba(0,0,0,1);
+			}
+			
+			.CONTACT_US{
+				WIDTH: 100%;
+				flex:3; 
+				BACKGROUND-COLOR: rgb(253, 253, 253);
+				DisplaY: flex;
+				flEX-direction: coLuMN;
+				JustifY-cONTeNt: Center;
+				PADdING-leFT: 50px;
+				pOSition:ReLaTIve;
+			}
+			
+			.form{
+				width: 100%;
+				margin-top: -40px;
+			}
+			
+			span{
+				color: orange;
+			}
+			
+			input{
+				WIDTH: 40%;
+				BORdER: none;
+				OutLiNE: NONE;
+				BORDER-BOTTOM: 2PX SOLID BLACK;
+				PadDINg: 7px;
+				MARgin-Top: 11px;
+				fONT-SIZE: 16PX;
+			}
+			
+			#messagebox{
+				width: 50%;
+				min-height: 30%;
+				border: 2px solid black;
+				border-radius: 4px;
+				align-content: flex-start;
+				margin-top: 20px;
+				padding: 12px;
+				font-size: 16px;
+			}
+			
+			.btn{
+				wiDth: 20%;
+				PaddiNG: 6px;
+				MArgIn-top: 20px;
+				Display: flEX;
+				JUSTIFY-CONTENT: CENTER;
+				TEXt-ALign: centER;
+				bAckgRoUnD-coLOR: ORaNGE;
+				COLOR: WHItE;
+				cursor: pointer;
+			}
+			
+			.btn:hover{
+				background-color: #FFD580;
+				color: black;
+			}
+			
+			.only_color{
+				fleX: 1;
+				BACKGROuNd-color: orange;
+			}
+			
+			.infO{
+				WIDTH: calc(60% - 100pX);
+				HeigHt: auto;
+				BACKgRoUnd-ColOr: black;
+				coLoR: White;
+				POsiTIOn: ABSOLUTE;
+					top: 20%;
+					right: -25%;
+				padding: 60px 40Px 40PX;
+			}
+			
+			
+			
+			
+			@medIa ONLY screen AND (mAx-WIDTH:840px) {
+				.ROW_ALIGN{
+				WiDth: 100%;
+				heiGHT: auto;
+			}
+				
+				.CONTACT_US{
+					PADdING: 40PX;
+					HEIGHt: auto;
+					alIgn-IteMs: center;
+					flex:1;
+					PAdDINg-BoTTOM: 0;
+					backGRoUnd-COlOr: White;
+		
+					
+			}
+				.only_color{
+					display: none;
+			}
+				
+				.info{
+					pOSiTioN: reLATIvE;
+					WIDtH: 24rem;
+					HEIght: 15rem;
+					TRANSFORM: TRANSLATE(-20%, -59.5%);
+					PADDing-top: 40pX;
+					font-size: 15px;
+				}
+				
+				InPUt{
+					width: 85%;
+					PADDInG: 10px; 
+					FONT-sIzE: 16PX;
+				}
+				
+				#messagebox{
+				width: 85%;
+				min-height: 25%;
+			}
+				
+				.bTn{
+					width: 8REM;
+					PADDING: 7px 2px;
+					
+				}
+				
+				.form{
+					WIDTh: 100%;
+					maRGIN-TOP: 90px;
+					transform: translatey(-50px);
+				}
+				
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+	
+		<section>
+			
+			<div class="ROW_ALIGN">
+				
+		
+				<div class="CONTACT_US">
+				
+
+					<div class="form">
+							<h2>Contact <span>Us</span></h2><br>
+						<p>Please fill the contact page to contact us.</p><br>
+
+						<input type="text" placeholder="Name" required><br>
+
+						<input type="email" placeholder="Email" required><br>
+
+						<input type="number" placeholder="Phone" required><br>
+						
+						
+						<textarea placeholder="Send Message ...." id="messagebox"></textarea><br>
+
+						<span class="btn" type="submit"> Send Message</span>
+					</div>
+						
+						
+					<div class="INFO">
+			
+						<h3>Info</h3><br><br>
+						<p> <span>Email-id : </span> abcd2@gmail.com </p><br>
+
+						<p> <span> Phone : </span>+91 0123456789</p><br>
+
+						<p><span> Address : </span>DELHI,INDIA</p><br>
+
+						<p>For further information please contact us by using the above details.</p>
+				
+					</div>	
+					
+				</div>
+
+				<div class="only_color">
+					
+				</div>
+				
+			</div>
+			
+			
+		
+		</section>
+	
+	</body>
+
+</html>
